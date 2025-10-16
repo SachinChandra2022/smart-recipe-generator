@@ -10,10 +10,10 @@ export default function Home() {
         <div className="max-w-4xl mx-auto">
           <div className="text-center mb-10">
             <h1 className="text-3xl md:text-5xl font-bold text-gray-800 tracking-tight">
-              What's in your kitchen?
+              What&apos;s in your kitchen?
             </h1>
             <p className="mt-3 text-lg text-gray-500 max-w-2xl mx-auto">
-              Snap a photo of your ingredients, and we'll turn them into a
+              Snap a photo of your ingredients, and we&apos;ll turn them into a
               delicious meal.
             </p>
           </div>

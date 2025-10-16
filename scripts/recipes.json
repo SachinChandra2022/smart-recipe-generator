@@ -328,6 +328,115 @@
     "dietary_tags": [],
     "nutritional_info": {"calories": 410, "protein": 12},
     "image_url": "https://images.unsplash.com/photo-1609761832076-dc62ee7f3268?q=80&w=800&auto=format&fit=crop"
+  },
+  {
+    "name": "Vegetable Pad Thai",
+    "description": "A classic Thai noodle dish stir-fried with vegetables, peanuts, and a tangy tamarind sauce.",
+    "instructions": ["Soak rice noodles in warm water until soft.", "Stir-fry vegetables and tofu in oil.", "Add noodles and pad thai sauce. Toss well.", "Garnish with crushed peanuts and lime wedges."],
+    "ingredients": [{"name": "rice noodles", "quantity": "200g"}, {"name": "tofu", "quantity": "100g"}, {"name": "bean sprouts", "quantity": "1 cup"}, {"name": "tamarind sauce", "quantity": "3 tbsp"}, {"name": "peanuts", "quantity": "1/4 cup"}],
+    "cooking_time_minutes": 25,
+    "difficulty": "Medium",
+    "dietary_tags": ["vegetarian", "gluten-free"],
+    "nutritional_info": {"calories": 450, "protein": 18},
+    "image_url": "https://images.unsplash.com/photo-1601052209534-4a3760b6b74c?q=80&w=800&auto=format&fit=crop"
+  },
+  {
+    "name": "Butter Garlic Naan",
+    "description": "Soft Indian flatbread brushed with melted butter and garlic — perfect with curries.",
+    "instructions": ["Mix flour, yeast, sugar, and yogurt into a dough.", "Let it rest for 1 hour.", "Roll into flat rounds and cook on a skillet until golden.", "Brush with butter and minced garlic."],
+    "ingredients": [{"name": "flour", "quantity": "2 cups"}, {"name": "yogurt", "quantity": "1/2 cup"}, {"name": "yeast", "quantity": "1 tsp"}, {"name": "butter", "quantity": "2 tbsp"}, {"name": "garlic", "quantity": "2 cloves"}],
+    "cooking_time_minutes": 45,
+    "difficulty": "Medium",
+    "dietary_tags": ["vegetarian"],
+    "nutritional_info": {"calories": 320, "protein": 10},
+    "image_url": "https://images.unsplash.com/photo-1605456005882-c6b3d96898cd?q=80&w=800&auto=format&fit=crop"
+  },
+  {
+    "name": "Chicken Alfredo Pasta",
+    "description": "Creamy fettuccine pasta with tender chicken and Parmesan sauce.",
+    "instructions": ["Cook pasta until al dente.", "Pan-fry chicken pieces until golden.", "Make a sauce from butter, cream, and Parmesan.", "Toss pasta and chicken together."],
+    "ingredients": [{"name": "fettuccine pasta", "quantity": "250g"}, {"name": "chicken breast", "quantity": "200g"}, {"name": "butter", "quantity": "2 tbsp"}, {"name": "cream", "quantity": "1/2 cup"}, {"name": "parmesan", "quantity": "1/2 cup"}],
+    "cooking_time_minutes": 30,
+    "difficulty": "Medium",
+    "dietary_tags": [],
+    "nutritional_info": {"calories": 680, "protein": 35},
+    "image_url": "https://images.unsplash.com/photo-1598294200873-399027aa89a9?q=80&w=800&auto=format&fit=crop"
+  },
+  {
+    "name": "Mango Lassi",
+    "description": "A refreshing Indian yogurt-based mango drink.",
+    "instructions": ["Blend mango pulp, yogurt, milk, and sugar until smooth.", "Serve chilled with a sprinkle of cardamom."],
+    "ingredients": [{"name": "mango pulp", "quantity": "1 cup"}, {"name": "yogurt", "quantity": "1/2 cup"}, {"name": "milk", "quantity": "1/4 cup"}, {"name": "sugar", "quantity": "2 tbsp"}],
+    "cooking_time_minutes": 5,
+    "difficulty": "Easy",
+    "dietary_tags": ["vegetarian", "gluten-free"],
+    "nutritional_info": {"calories": 180, "protein": 6},
+    "image_url": "https://images.unsplash.com/photo-1627308595229-7830a5c91f9f?q=80&w=800&auto=format&fit=crop"
+  },
+  {
+    "name": "French Onion Soup",
+    "description": "Rich and flavorful caramelized onion soup topped with cheesy bread.",
+    "instructions": ["Caramelize onions in butter for 30 minutes.", "Add beef broth and simmer for 15 minutes.", "Top with toasted bread and melted cheese."],
+    "ingredients": [{"name": "onions", "quantity": "3 large"}, {"name": "butter", "quantity": "2 tbsp"}, {"name": "beef broth", "quantity": "4 cups"}, {"name": "bread", "quantity": "4 slices"}, {"name": "cheese", "quantity": "1 cup"}],
+    "cooking_time_minutes": 60,
+    "difficulty": "Medium",
+    "dietary_tags": [],
+    "nutritional_info": {"calories": 400, "protein": 16},
+    "image_url": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?q=80&w=800&auto=format&fit=crop"
+  },
+  {
+    "name": "Tiramisu",
+    "description": "Classic Italian dessert with layers of coffee-soaked ladyfingers and mascarpone cream.",
+    "instructions": ["Whisk egg yolks and sugar until pale.", "Fold in mascarpone and whipped cream.", "Layer soaked ladyfingers and mascarpone mixture.", "Refrigerate for 4 hours before serving."],
+    "ingredients": [{"name": "ladyfingers", "quantity": "12"}, {"name": "mascarpone", "quantity": "250g"}, {"name": "coffee", "quantity": "1 cup"}, {"name": "cocoa powder", "quantity": "1 tbsp"}],
+    "cooking_time_minutes": 30,
+    "difficulty": "Medium",
+    "dietary_tags": ["vegetarian"],
+    "nutritional_info": {"calories": 500, "protein": 9},
+    "image_url": "https://images.unsplash.com/photo-1578985545062-69928b1d9587?q=80&w=800&auto=format&fit=crop"
+  },
+  {
+    "name": "Grilled Vegetable Skewers",
+    "description": "Healthy and colorful skewers of grilled veggies with olive oil and herbs.",
+    "instructions": ["Cut vegetables into chunks.", "Skewer and brush with oil and herbs.", "Grill for 10-12 minutes, turning occasionally."],
+    "ingredients": [{"name": "bell peppers", "quantity": "2"}, {"name": "zucchini", "quantity": "1"}, {"name": "mushrooms", "quantity": "200g"}, {"name": "olive oil", "quantity": "2 tbsp"}],
+    "cooking_time_minutes": 20,
+    "difficulty": "Easy",
+    "dietary_tags": ["vegetarian", "vegan", "gluten-free"],
+    "nutritional_info": {"calories": 180, "protein": 5},
+    "image_url": "https://images.unsplash.com/photo-1624300623662-832b1b0e1c8c?q=80&w=800&auto=format&fit=crop"
+  },
+  {
+    "name": "Vegetable Samosas",
+    "description": "Crispy fried pastry pockets filled with spiced potatoes and peas.",
+    "instructions": ["Prepare filling with boiled potatoes, peas, and spices.", "Fill dough cones with mixture and seal.", "Deep-fry until golden brown."],
+    "ingredients": [{"name": "potatoes", "quantity": "2 large"}, {"name": "peas", "quantity": "1/2 cup"}, {"name": "flour", "quantity": "2 cups"}, {"name": "oil", "quantity": "for frying"}],
+    "cooking_time_minutes": 45,
+    "difficulty": "Medium",
+    "dietary_tags": ["vegetarian"],
+    "nutritional_info": {"calories": 300, "protein": 7},
+    "image_url": "https://images.unsplash.com/photo-1599206356290-bf8e4f405b8e?q=80&w=800&auto=format&fit=crop"
+  },
+  {
+    "name": "Blueberry Pancakes",
+    "description": "Fluffy pancakes studded with juicy blueberries and served with syrup.",
+    "instructions": ["Mix batter from flour, milk, and eggs.", "Gently fold in blueberries.", "Cook on a griddle until golden.", "Serve with butter and maple syrup."],
+    "ingredients": [{"name": "flour", "quantity": "1.5 cups"}, {"name": "milk", "quantity": "1.25 cups"}, {"name": "egg", "quantity": "1"}, {"name": "blueberries", "quantity": "1/2 cup"}],
+    "cooking_time_minutes": 20,
+    "difficulty": "Easy",
+    "dietary_tags": ["vegetarian"],
+    "nutritional_info": {"calories": 330, "protein": 9},
+    "image_url": "https://images.unsplash.com/photo-1617196034796-73df006ca0b2?q=80&w=800&auto=format&fit=crop"
+  },
+  {
+    "name": "Greek Yogurt Parfait",
+    "description": "A simple layered breakfast of yogurt, fruit, and granola.",
+    "instructions": ["Layer yogurt, fruit, and granola in a glass.", "Repeat layers and drizzle with honey.", "Serve immediately or refrigerate."],
+    "ingredients": [{"name": "greek yogurt", "quantity": "1 cup"}, {"name": "granola", "quantity": "1/2 cup"}, {"name": "berries", "quantity": "1/2 cup"}, {"name": "honey", "quantity": "1 tbsp"}],
+    "cooking_time_minutes": 5,
+    "difficulty": "Easy",
+    "dietary_tags": ["vegetarian", "gluten-free"],
+    "nutritional_info": {"calories": 280, "protein": 14},
+    "image_url": "https://images.unsplash.com/photo-1564478030547-c8db0ccaae1b?q=80&w=800&auto=format&fit=crop"
   }
-
 ]

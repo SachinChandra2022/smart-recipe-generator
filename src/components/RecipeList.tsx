@@ -2,7 +2,7 @@
 
 import { useRecipeStore, Recipe } from "@/store/recipeStore";
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card";
-import { Loader2, Tag, Clock, Users, Star } from "lucide-react";
+import { Loader2, Tag, Clock, Users} from "lucide-react";
 
 export function RecipeList() {
   const { recipes, isLoading, error } = useRecipeStore();
