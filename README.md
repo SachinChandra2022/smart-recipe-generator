@@ -1,36 +1,69 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Smart Recipe Generator
 
-## Getting Started
+An intuitive web application that suggests recipes based on images of available ingredients. This project was developed as a technical assessment for a Software Engineer position.
 
-First, run the development server:
+**[➡️ Deployed Version]([https://YOUR_HOSTED_URL_HERE](https://smart-recipe-generator-1brp.vercel.app/))**
+
+*Note: The live demo may take a moment to start on a free hosting service.*
+
+![Smart Recipe Generator Screenshot]([https://YOUR_SCREENSHOT_URL_HERE](https://github.com/SachinChandra2022/smart-recipe-generator/blob/main/image.png))
+*(**Pro Tip:** Take a nice screenshot of your finished app, drag it into a GitHub issue comment to get a URL, then paste that URL here and delete this tip.)*
+
+---
+
+## ✨ Features
+
+-   **📸 Image-Based Ingredient Recognition:** Upload a photo of your ingredients, and the app will identify them using the Clarifai AI API.
+-   **🍳 Smart Recipe Matching:** A scoring algorithm finds and suggests the best recipes from our database based on your available ingredients.
+-   **⏳ Dynamic User Experience:** Includes clear loading states while the AI is processing and handles potential errors gracefully.
+-   **📱 Fully Responsive Design:** The interface is clean, intuitive, and works beautifully on both desktop and mobile devices.
+
+---
+
+## 🛠️ Tech Stack
+
+-   **Frontend Framework:** [Vue 3](https://vuejs.org/) (using the Composition API)
+-   **Build Tool:** [Vite](https://vitejs.dev/)
+-   **UI Component Library:** [PrimeVue](https://primevue.org/)
+-   **AI / Machine Learning:** [Clarifai Food Recognition API](https://www.clarifai.com/)
+-   **Hosting:** Deployed on [Vercel](https://vercel.com/) / [Netlify](https://www.netlify.com/) (Choose one)
+
+---
+
+## 🎯 My Approach (Technical Write-up)
+
+My primary goal was to build a robust, user-friendly prototype that effectively demonstrates modern web development practices within the given timeframe.
+
+I chose **Vue 3 with the Composition API and Vite** for its outstanding developer experience, performance, and clean, reactive state management. This allowed for a well-structured and maintainable codebase. For the user interface, I integrated **PrimeVue**, a comprehensive component library, to rapidly build a clean, responsive, and accessible interface without the overhead of writing extensive custom CSS.
+
+The core feature, ingredient recognition, is powered by the **Clarifai Food Recognition API**. Integrating a powerful, pre-trained model was a strategic decision to focus development time on the application's logic and user experience rather than building a custom ML model from scratch.
+
+The recipe matching logic uses a simple but effective scoring system. It calculates a match percentage for each recipe based on the detected ingredients and sorts the results to ensure the most relevant suggestions are always shown first.
+
+---
+
+## 🚀 Getting Started Locally
+
+To run this project on your local machine, follow these steps:
+
+### 1. Clone the repository
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+git clone https://github.com/YOUR_USERNAME/vue-recipe-app.git
+cd vue-recipe-app
 ```
+### 2. Install dependencies
+```bash
+npm install
+```
+### 3. Set up environment variables
+You'll need an API key from Clarifai to use the ingredient recognition feature.
+  1. Create a new file in the root of the project named .env.local.
+  2. Add your API key to this file.
+### 4. Run the development server
+```bash
+npm run dev
+```
+The application should now be running on http://localhost:5173.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
