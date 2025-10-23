@@ -6,7 +6,7 @@ An intuitive web application that suggests recipes based on images of available 
 
 *Note: The live demo may take a moment to start on a free hosting service.*
 
-![Smart Recipe Generator Screenshot]([https://YOUR_SCREENSHOT_URL_HERE](https://github.com/SachinChandra2022/smart-recipe-generator/blob/main/image.png))
+![Smart Recipe Generator Screenshot]((https://github.com/SachinChandra2022/smart-recipe-generator/blob/main/image.png))
 
 ---
 
