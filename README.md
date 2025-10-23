@@ -2,12 +2,11 @@
 
 An intuitive web application that suggests recipes based on images of available ingredients. This project was developed as a technical assessment for a Software Engineer position.
 
-**[➡️ Deployed Version]([https://YOUR_HOSTED_URL_HERE](https://smart-recipe-generator-1brp.vercel.app/))**
+**[➡️ Deployed Version](https://smart-recipe-generator-1brp.vercel.app/)**
 
 *Note: The live demo may take a moment to start on a free hosting service.*
 
 ![Smart Recipe Generator Screenshot]([https://YOUR_SCREENSHOT_URL_HERE](https://github.com/SachinChandra2022/smart-recipe-generator/blob/main/image.png))
-*(**Pro Tip:** Take a nice screenshot of your finished app, drag it into a GitHub issue comment to get a URL, then paste that URL here and delete this tip.)*
 
 ---
 
